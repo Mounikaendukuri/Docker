@@ -4,5 +4,5 @@ FROM almalinux:${version:-9}
 ARG course=docker
 ARG trainer=mounika
 env duration=10hrs
-RUN echo "course is ${course}, tariner is ${trainer} , env is ${trainer}"
+RUN echo "course is ${course}, tariner is ${trainer} , env is ${duration}"
 CMD ["sleep","200"]
